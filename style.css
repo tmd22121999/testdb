@@ -1,0 +1,82 @@
+*{
+	margin: 0 auto;
+	font-size:16px;
+	padding: 0 auto;
+	box-sizing:border-box;
+	position:relative;
+	top:0;
+	left:0;
+}
+
+#header {
+	position:fixed;
+	top:0; left:0;
+	width:100%;
+	background-color: #CCC;
+	/*min-width:600px;*/
+}
+#header #logo{
+	font-size: 200%;
+	padding: 10px 15%;
+	color: red;
+	font-weight: bold;
+	text-align: center;
+}
+#header #menu {
+	padding-bottom: 10px ;
+	font-size:150%;
+	margin:0 20%;
+	display:flex;
+	flex-direction: row;
+	flex-wrap:nowrap;
+	text-decoration:none;
+}
+#header #menu .smenu{
+	font-size:24px;
+	border: black 1px solid ;
+	text-align:center;
+	text-decoration:none;
+}
+.smenu{ margin : 0 auto ;padding: 0 5rem; }
+#header #menu >a {
+	text-decoration:none;
+	color:black;
+}
+#header #menu .smenu:hover {
+	background-color: #003;
+	color: #6FF;
+}
+
+#main{
+	position: relative;
+	top:10em;
+	left:0px;
+	max-width:1068px;
+}
+
+#main .rand #qct  {
+	padding: 5px 10px;
+	min-height: 6em;
+	text-align: center;
+	background-color:#b3daff;
+	color:#003300;
+}
+#main .rand{ max-width: 900px; position:relative; left: 0; margin:0 auto;}
+
+#main .rand #qct #quote{	
+	padding-bottom:0.8em;
+}
+#main  .rand #qct  #charq{
+	margin-right : 20px;
+	display:flex;
+	float:right;
+}
+
+#main  .rand .butt{
+	margin-top:20px;
+	padding:10px;
+	display:flex;
+	background-color:#ff8c1a;
+	border: none;
+}
+

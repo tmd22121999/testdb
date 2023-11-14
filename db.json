@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "slug": "hello",
+      "content":"---\ntitle: Hello\ntags: ['react', 'nextjs']\nauthor: okayu nekomata\ndescription: An introduction blog post with some code blocks, the original\npostDate: 10:50 10/08/2023\navatar: '/images/logo.png'\n---\n\n# Welcome to my MDX + NextJS Demo\n\n## Code examples\n\n## Instructions\n\nEdit `/src/blogs/example.mdx` ✅\n"
+    },
+    {
+      "id": 2,
+      "slug": "remote",
+      "content":"---\ntitle: Remmote test\ntags: ['react', 'nextjs']\nauthor: Roronoa\ndescription: An introduction blog post with some code blocks, the original\npostDate: 10:50 10/08/2023\navatar: '/images/logo.png'\n---\n\n# Trang web này dùng remote\n\n## Code examples\n\n## Instructions\n\nEdit `/src/blogs/example.mdx` ✅\n"
+    },
+    {
+      "id": 3,
+      "slug": "blog",
+      "content":"---\ntitle: Frontmatter test\ntags: ['react', 'nextjs']\nauthor: Domitrius Clark\ndescription: An introduction blog post with some code blocks, the original\npostDate: 10:50 10/08/2023\navatar: '/images/logo.png'\n---\n\n# Welcome to my MDX + NextJS Demo\n\n## Code examples\n\n## Instructions\n\nEdit `/src/blogs/example.mdx` ✅\n"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
